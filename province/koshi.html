@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Koshi - Shittal Pati</title>
+<style>
+:root {
+  --bg: #ffffff;
+  --text: #1a1a1a;
+  --accent: #b3121b;
+  --muted: #6b6b6b;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--bg); color: var(--text);
+  font-family: 'Noto Sans', Arial, sans-serif;
+}
+h1, h2, h3, .headline { font-family: 'Merriweather', Georgia, serif; }
+a { color: inherit; text-decoration: none; }
+a:hover { text-decoration: underline; }
+.container { max-width: 1180px; margin: 0 auto; padding: 0 16px; }
+header.site-header {
+  border-bottom: 3px solid var(--accent);
+  padding: 16px 0;
+  
+}
+header.site-header .row {
+  display: flex; align-items: center; justify-content: space-between;
+  flex-direction: column; text-align:center; gap:10px;
+}
+.logo { font-size: 26px; font-weight: 800; color: var(--accent); }
+nav.main-nav a { margin: 0 10px; font-weight: 600; font-size: 14px; }
+.tagline { color: var(--muted); font-size: 13px; }
+.hero { padding: 24px 0; }
+.hero-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 24px; }
+.hero-main img, .card img { width: 100%; height: auto; display: block; border-radius: 12px; }
+.hero-main .headline { font-size: 30px; margin: 10px 0; }
+.card-grid {
+  display: grid; gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+}
+.card {  }
+.card img {  }
+.card .cat { color: var(--accent); font-size: 11px; font-weight: 700; text-transform: uppercase; }
+.card .headline { font-size: 17px; margin: 6px 0; }
+.card .meta { color: var(--muted); font-size: 12px; }
+section.block { padding: 28px 0; border-top: 1px solid rgba(120,120,120,.2); }
+section.block > h2 { font-size: 20px; border-left: 4px solid var(--accent); padding-left: 10px; margin-bottom: 18px; }
+footer.site-footer {
+  margin-top: 40px; padding: 30px 0; background: #14161a;
+  color: #cfd3d8; font-size: 13px;
+}
+footer.site-footer a { color: #cfd3d8; }
+.detail-article .headline { font-size: 30px; margin: 6px 0 14px; }
+.detail-article .body-html { font-size: 17px; line-height: 1.8; }
+.detail-article .body-html img { max-width: 100%; border-radius: 8px; }
+.ad-slot { text-align: center; margin: 20px 0; }
+.ad-slot img { max-width: 100%; border-radius: 8px; }
+</style>
+</head>
+<body>
+<header class="site-header"><div class="container row">
+  <a href="/index.html"><img src="logo.png" alt="Shittal Pati" style="height:44px"></a>
+  <nav class="main-nav">
+    <a href="/index.html">Home</a>
+    <a href="/category/politics.html">Politics</a>
+    <a href="/category/sports.html">Sports</a>
+    <a href="/category/entertainment.html">Entertainment</a>
+    <a href="/videos.html">Videos</a>
+    <a href="/about.html">About</a>
+    <a href="/contact.html">Contact</a>
+  </nav>
+</div><div class="container tagline">Official Website of Janavedana Daily</div></header>
+<main class="container">
+<main>
+  <section class="provincial-news">
+    <h1>Shittal Pati Koshi News</h1>
+    <p>Latest news from the Koshi province</p>
+    <article>
+      <h2>Province 1 CM Inaugurates New Road Section in Jhapa</h2>
+      <p>Chief Minister of Province 1, Sher Dhan Rai, inaugurated a new road section in Jhapa district yesterday.</p>
+      <p>The 10-kilometer road section was constructed at a cost of NPR 250 million.</p>
+      <img src="cm-jhapa-road.jpg" alt="CM inaugurating new road section">
+      <p>Read more: <a href="#">CM Inaugurates New Road Section in Jhapa</a></p>
+    </article>
+    <article>
+      <h2>Locals Protest Against Proposed Dam Project in Sunsari</h2>
+      <p>Locals in Sunsari district have been protesting against a proposed dam project in the area.</p>
+      <p>The project, which aims to generate hydroelectric power, has been met with resistance from locals who fear it will displace them.</p>
+      <img src="sunsari-dam-protest.jpg" alt="Locals protesting against dam project">
+      <p>Read more: <a href="#">Locals Protest Against Proposed Dam Project in Sunsari</a></p>
+    </article>
+    <article>
+      <h2>Farmer's Market Opens in Morang</h2>
+      <p>A new farmer's market has opened in Morang district, providing a platform for local farmers to sell their produce.</p>
+      <p>The market, which is open every Saturday, has seen a good turnout of customers.</p>
+      <img src="morang-farmers-market.jpg" alt="Farmer's market in Morang">
+      <p>Read more: <a href="#">Farmer's Market Opens in Morang</a></p>
+    </article>
+  </section>
+  <section class="breaking-news">
+    <h2>Breaking News</h2>
+    <article>
+      <h3>Heavy Rainfall Expected in Koshi Province</h3>
+      <p>The Meteorological Forecasting Division has predicted heavy rainfall in the Koshi province over the next 24 hours.</p>
+      <p>Residents are advised to take necessary precautions to avoid any damage.</p>
+      <img src="heavy-rainfall-alert.jpg" alt="Heavy rainfall alert">
+      <p>Read more: <a href="#">Heavy Rainfall Expected in Koshi Province</a></p>
+    </article>
+  </section>
+</main>
+</main>
+<footer class="site-footer"><div class="container">
+  <p>&copy; 2026 Shittal Pati. All rights reserved.</p>
+  <p><a href="/about.html">About</a> · <a href="/contact.html">Contact</a></p>
+</div></footer>
+</body>
+</html>
