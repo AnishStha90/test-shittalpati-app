@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sports - Shittal Pati</title>
+<style>
+:root {
+  --bg: #ffffff;
+  --text: #1a1a1a;
+  --accent: #b3121b;
+  --muted: #6b6b6b;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--bg); color: var(--text);
+  font-family: 'Noto Sans', Arial, sans-serif;
+}
+h1, h2, h3, .headline { font-family: 'Merriweather', Georgia, serif; }
+a { color: inherit; text-decoration: none; }
+a:hover { text-decoration: underline; }
+.container { max-width: 1180px; margin: 0 auto; padding: 0 16px; }
+header.site-header {
+  border-bottom: 3px solid var(--accent);
+  padding: 16px 0;
+  
+}
+header.site-header .row {
+  display: flex; align-items: center; justify-content: space-between;
+  flex-direction: column; text-align:center; gap:10px;
+}
+.logo { font-size: 26px; font-weight: 800; color: var(--accent); }
+nav.main-nav a { margin: 0 10px; font-weight: 600; font-size: 14px; }
+.tagline { color: var(--muted); font-size: 13px; }
+.hero { padding: 24px 0; }
+.hero-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 24px; }
+.hero-main img, .card img { width: 100%; height: auto; display: block; border-radius: 12px; }
+.hero-main .headline { font-size: 30px; margin: 10px 0; }
+.card-grid {
+  display: grid; gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+}
+.card {  }
+.card img {  }
+.card .cat { color: var(--accent); font-size: 11px; font-weight: 700; text-transform: uppercase; }
+.card .headline { font-size: 17px; margin: 6px 0; }
+.card .meta { color: var(--muted); font-size: 12px; }
+section.block { padding: 28px 0; border-top: 1px solid rgba(120,120,120,.2); }
+section.block > h2 { font-size: 20px; border-left: 4px solid var(--accent); padding-left: 10px; margin-bottom: 18px; }
+footer.site-footer {
+  margin-top: 40px; padding: 30px 0; background: #14161a;
+  color: #cfd3d8; font-size: 13px;
+}
+footer.site-footer a { color: #cfd3d8; }
+.detail-article .headline { font-size: 30px; margin: 6px 0 14px; }
+.detail-article .body-html { font-size: 17px; line-height: 1.8; }
+.detail-article .body-html img { max-width: 100%; border-radius: 8px; }
+.ad-slot { text-align: center; margin: 20px 0; }
+.ad-slot img { max-width: 100%; border-radius: 8px; }
+</style>
+</head>
+<body>
+<header class="site-header"><div class="container row">
+  <a href="/index.html"><img src="logo.png" alt="Shittal Pati" style="height:44px"></a>
+  <nav class="main-nav">
+    <a href="/index.html">Home</a>
+    <a href="/category/politics.html">Politics</a>
+    <a href="/category/sports.html">Sports</a>
+    <a href="/category/entertainment.html">Entertainment</a>
+    <a href="/videos.html">Videos</a>
+    <a href="/about.html">About</a>
+    <a href="/contact.html">Contact</a>
+  </nav>
+</div><div class="container tagline">Official Website of Janavedana Daily</div></header>
+<main class="container">
+<main>
+  <section class="category">
+    <h1 class="category-title" style="font-family: Merriweather, Georgia, serif; color: #b3121b;">Sports</h1>
+    <article class="article">
+      <h2 class="article-title">South Korean Star Lee Kang-in Joins Atletico Madrid</h2>
+      <img src="lee-kang-in.jpg" alt="Lee Kang-in in action">
+      <p>Nepali football fans will be disappointed to hear that South Korean star Lee Kang-in has left Paris Saint-Germain (PSG) to join Atletico Madrid. The 22-year-old midfielder has been a key player for PSG, but his departure may impact the team's chances in the upcoming season.</p>
+      <a href="lee-kang-in-joins-atletico-madrid" class="read-more">Read More</a>
+    </article>
+    <article class="article">
+      <h2 class="article-title">Brazil vs India: Football Match in Kolkata</h2>
+      <img src="brazil-india-match.jpg" alt="Brazil vs India match in Kolkata">
+      <p>Rumors have been circulating about a potential football match between Brazil and India in Kolkata. While there has been no official confirmation from the organizers, fans are eagerly awaiting news about the match. Stay tuned for updates!</p>
+      <a href="brazil-india-match-kolkata" class="read-more">Read More</a>
+    </article>
+    <article class="article">
+      <h2 class="article-title">CAVA Championship: Nepal's Consecutive Fourth Loss</h2>
+      <img src="cava-championship.jpg" alt="CAVA Championship match">
+      <p>Nepal's football team suffered a consecutive fourth loss in the CAVA Championship. The team's performance has been disappointing, and fans are calling for changes in the coaching staff and team dynamics.</p>
+      <a href="cava-championship-nepal" class="read-more">Read More</a>
+    </article>
+  </section>
+</main>
+</main>
+<footer class="site-footer"><div class="container">
+  <p>&copy; 2026 Shittal Pati. All rights reserved.</p>
+  <p><a href="/about.html">About</a> · <a href="/contact.html">Contact</a></p>
+</div></footer>
+</body>
+</html>
