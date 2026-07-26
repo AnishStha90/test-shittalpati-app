@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Technology - Shittal Pati</title>
+<style>
+:root {
+  --bg: #ffffff;
+  --text: #1a1a1a;
+  --accent: #b3121b;
+  --muted: #6b6b6b;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--bg); color: var(--text);
+  font-family: 'Noto Sans', Arial, sans-serif;
+}
+h1, h2, h3, .headline { font-family: 'Merriweather', Georgia, serif; }
+a { color: inherit; text-decoration: none; }
+a:hover { text-decoration: underline; }
+.container { max-width: 1180px; margin: 0 auto; padding: 0 16px; }
+header.site-header {
+  border-bottom: 3px solid var(--accent);
+  padding: 16px 0;
+  
+}
+header.site-header .row {
+  display: flex; align-items: center; justify-content: space-between;
+  flex-direction: column; text-align:center; gap:10px;
+}
+.logo { font-size: 26px; font-weight: 800; color: var(--accent); }
+nav.main-nav a { margin: 0 10px; font-weight: 600; font-size: 14px; }
+.tagline { color: var(--muted); font-size: 13px; }
+.hero { padding: 24px 0; }
+.hero-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 24px; }
+.hero-main img, .card img { width: 100%; height: auto; display: block; border-radius: 12px; }
+.hero-main .headline { font-size: 30px; margin: 10px 0; }
+.card-grid {
+  display: grid; gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+}
+.card {  }
+.card img {  }
+.card .cat { color: var(--accent); font-size: 11px; font-weight: 700; text-transform: uppercase; }
+.card .headline { font-size: 17px; margin: 6px 0; }
+.card .meta { color: var(--muted); font-size: 12px; }
+section.block { padding: 28px 0; border-top: 1px solid rgba(120,120,120,.2); }
+section.block > h2 { font-size: 20px; border-left: 4px solid var(--accent); padding-left: 10px; margin-bottom: 18px; }
+footer.site-footer {
+  margin-top: 40px; padding: 30px 0; background: #14161a;
+  color: #cfd3d8; font-size: 13px;
+}
+footer.site-footer a { color: #cfd3d8; }
+.detail-article .headline { font-size: 30px; margin: 6px 0 14px; }
+.detail-article .body-html { font-size: 17px; line-height: 1.8; }
+.detail-article .body-html img { max-width: 100%; border-radius: 8px; }
+.ad-slot { text-align: center; margin: 20px 0; }
+.ad-slot img { max-width: 100%; border-radius: 8px; }
+</style>
+</head>
+<body>
+<header class="site-header"><div class="container row">
+  <a href="/index.html"><img src="logo.png" alt="Shittal Pati" style="height:44px"></a>
+  <nav class="main-nav">
+    <a href="/index.html">Home</a>
+    <a href="/category/politics.html">Politics</a>
+    <a href="/category/sports.html">Sports</a>
+    <a href="/category/entertainment.html">Entertainment</a>
+    <a href="/videos.html">Videos</a>
+    <a href="/about.html">About</a>
+    <a href="/contact.html">Contact</a>
+  </nav>
+</div><div class="container tagline">Official Website of Janavedana Daily</div></header>
+<main class="container">
+<main>
+  <section class="category-listing">
+    <h1 class="category-title" style="font-family: Merriweather, Georgia, serif; color: #b3121b;">Technology</h1>
+    <article class="category-article">
+      <h2 class="article-title">Nepal's First 5G Network Launched</h2>
+      <p class="article-content">Nepal Telecom has launched the country's first 5G network, with services available in major cities including Kathmandu and Pokhara.</p>
+      <a class="read-more" href="#">Read More</a>
+      <img class="article-image" src="nepal-5g-launch.jpg" alt="Nepal Telecom 5G Launch">
+    </article>
+    <article class="category-article">
+      <h2 class="article-title">New Smartphone with Advanced Camera Features</h2>
+      <p class="article-content">A new smartphone with advanced camera features has been launched in the market, with a price tag of NPR 50,000.</p>
+      <a class="read-more" href="#">Read More</a>
+      <img class="article-image" src="new-smartphone.jpg" alt="New Smartphone">
+    </article>
+    <article class="category-article">
+      <h2 class="article-title">Government to Launch Digital Payment System</h2>
+      <p class="article-content">The government has announced plans to launch a digital payment system, which will allow citizens to make payments online.</p>
+      <a class="read-more" href="#">Read More</a>
+      <img class="article-image" src="digital-payment.jpg" alt="Digital Payment System">
+    </article>
+  </section>
+  <section class="related-links">
+    <h2 class="related-links-title">Related Links</h2>
+    <ul>
+      <li><a class="related-link" href="#">Business</a></li>
+      <li><a class="related-link" href="#">Health</a></li>
+      <li><a class="related-link" href="#">Sports</a></li>
+    </ul>
+  </section>
+</main>
+</main>
+<footer class="site-footer"><div class="container">
+  <p>&copy; 2026 Shittal Pati. All rights reserved.</p>
+  <p><a href="/about.html">About</a> · <a href="/contact.html">Contact</a></p>
+</div></footer>
+</body>
+</html>
