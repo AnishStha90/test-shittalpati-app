@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shittal Pati</title>
+<style>
+:root {
+  --bg: #ffffff;
+  --text: #1a1a1a;
+  --accent: #b3121b;
+  --muted: #6b6b6b;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--bg); color: var(--text);
+  font-family: 'Noto Sans', Arial, sans-serif;
+}
+h1, h2, h3, .headline { font-family: 'Merriweather', Georgia, serif; }
+a { color: inherit; text-decoration: none; }
+a:hover { text-decoration: underline; }
+.container { max-width: 1180px; margin: 0 auto; padding: 0 16px; }
+header.site-header {
+  border-bottom: 3px solid var(--accent);
+  padding: 16px 0;
+  
+}
+header.site-header .row {
+  display: flex; align-items: center; justify-content: space-between;
+  flex-direction: column; text-align:center; gap:10px;
+}
+.logo { font-size: 26px; font-weight: 800; color: var(--accent); }
+nav.main-nav a { margin: 0 10px; font-weight: 600; font-size: 14px; }
+.tagline { color: var(--muted); font-size: 13px; }
+.hero { padding: 24px 0; }
+.hero-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 24px; }
+.hero-main img, .card img { width: 100%; height: auto; display: block; border-radius: 12px; }
+.hero-main .headline { font-size: 30px; margin: 10px 0; }
+.card-grid {
+  display: grid; gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+}
+.card {  }
+.card img {  }
+.card .cat { color: var(--accent); font-size: 11px; font-weight: 700; text-transform: uppercase; }
+.card .headline { font-size: 17px; margin: 6px 0; }
+.card .meta { color: var(--muted); font-size: 12px; }
+section.block { padding: 28px 0; border-top: 1px solid rgba(120,120,120,.2); }
+section.block > h2 { font-size: 20px; border-left: 4px solid var(--accent); padding-left: 10px; margin-bottom: 18px; }
+footer.site-footer {
+  margin-top: 40px; padding: 30px 0; background: #14161a;
+  color: #cfd3d8; font-size: 13px;
+}
+footer.site-footer a { color: #cfd3d8; }
+.detail-article .headline { font-size: 30px; margin: 6px 0 14px; }
+.detail-article .body-html { font-size: 17px; line-height: 1.8; }
+.detail-article .body-html img { max-width: 100%; border-radius: 8px; }
+.ad-slot { text-align: center; margin: 20px 0; }
+.ad-slot img { max-width: 100%; border-radius: 8px; }
+</style>
+</head>
+<body>
+<header class="site-header"><div class="container row">
+  <a href="/index.html"><img src="logo.png" alt="Shittal Pati" style="height:44px"></a>
+  <nav class="main-nav">
+    <a href="/index.html">Home</a>
+    <a href="/category/politics.html">Politics</a>
+    <a href="/category/sports.html">Sports</a>
+    <a href="/category/entertainment.html">Entertainment</a>
+    <a href="/videos.html">Videos</a>
+    <a href="/about.html">About</a>
+    <a href="/contact.html">Contact</a>
+  </nav>
+</div><div class="container tagline">Official Website of Janavedana Daily</div></header>
+<main class="container">
+<main>
+  <section class="video-listing">
+    <h1 class="accent">Shittal Pati</h1>
+    <article class="video-card">
+      <a href="#">
+        <img src="newspaper.jpg" alt="Today's newspaper news">
+        <h2>Today's newspaper news | published from Butwal |#newspaper</h2>
+        <p>Published from Butwal</p>
+      </a>
+    </article>
+    <article class="video-card">
+      <a href="#">
+        <img src="devisfall.jpg" alt="TOURIST PLACES OF NEPAL | Devi's Fall ( पाताले छाँगो ) || पर्यटकीय स्थल | #pokhara #devisfall">
+        <h2>TOURIST PLACES OF NEPAL | Devi's Fall ( पाताले छाँगो ) || पर्यटकीय स्थल | #pokhara #devisfall</h2>
+        <p>Devi's Fall ( पाताले छाँगो )</p>
+      </a>
+    </article>
+    <article class="video-card">
+      <a href="#">
+        <img src="prof-thapa.jpg" alt="Question to Prof. Dr. Bhola Thapa – Your appointment was through meritocracy, but others’ how?">
+        <h2>Question to Prof. Dr. Bhola Thapa – Your appointment was through meritocracy, but others’ how?</h2>
+        <p>Prof. Dr. Bhola Thapa</p>
+      </a>
+    </article>
+    <article class="video-card">
+      <a href="#">
+        <img src="todaynews.jpg" alt="Today news | nepali news | aaja ka mukhya samachar | 28 ashar 2083 | Butwal Today News#news">
+        <h2>Today news | nepali news | aaja ka mukhya samachar | 28 ashar 2083 | Butwal Today News#news</h2>
+        <p>Today news | nepali news | aaja ka mukhya samachar</p>
+      </a>
+    </article>
+    <article class="video-card">
+      <a href="#">
+        <img src="butwalhighlights.jpg" alt="HILIGHTS NEWS | Butwal Highlights | 28 Asadh 2083, Aaitabaar | #NewsUpdate #hilights #PoliticalNews #economy">
+        <h2>HILIGHTS NEWS | Butwal Highlights | 28 Asadh 2083, Aaitabaar | #NewsUpdate #hilights #PoliticalNews #economy</h2>
+        <p>Butwal Highlights</p>
+      </a>
+    </article>
+    <article class="video-card">
+      <a href="#">
+        <img src="fifaworldcup.jpg" alt="FIFA World Cup: Semi-finals to feature clash of former champions #fifaworldcup2026">
+        <h2>FIFA World Cup: Semi-finals to feature clash of former champions #fifaworldcup2026</h2>
+        <p>FIFA World Cup</p>
+      </a>
+    </article>
+    <article class="video-card">
+      <a href="#">
+        <img src="todaynews2.jpg" alt="Today news | nepali news | aaja ka mukhya samachar | 25 ashar 2083 | बुटवल टुडे समाचार#news">
+        <h2>Today news | nepali news | aaja ka mukhya samachar | 25 ashar 2083 | बुटवल टुडे समाचार#news</h2>
+        <p>Today news | nepali news | aaja ka mukhya samachar</p>
+      </a>
+    </article>
+    <article class="video-card">
+      <a href="#">
+        <img src="nepalsaudi.jpg" alt="Nepal Requests Saudi Arabia to Halt Skill Testing Program">
+        <h2>Nepal Requests Saudi Arabia to Halt Skill Testing Program</h2>
+        <p>Nepal Requests Saudi Arabia</p>
+      </a>
+    </article>
+    <article class="video-card">
+      <a href="#">
+        <img src="balengovt.jpg" alt="What did Balen Government do in 100 days? #balensarkar #balenshah #balen">
+        <h2>What did Balen Government do in 100 days? #balensarkar #balenshah #balen</h2>
+        <p>Balen Government</p>
+      </a>
+    </article>
+    <article class="video-card">
+      <a href="#">
+        <img src="todaynews3.jpg" alt="Today news | nepali news | aaja ka mukhya samachar | 24 ashar 2083 | Butwal Today News#news">
+        <h2>Today news | nepali news | aaja ka mukhya samachar | 24 ashar 2083 | Butwal Today News#news</h2>
+        <p>Today news | nepali news | aaja ka mukhya samachar</p>
+      </a>
+    </article>
+    <article class="video-card">
+      <a href="#">
+        <img src="qatarblast.jpg" alt="Nepalese also injured in Qatar's Ras Laffan explosion!">
+        <h2>Nepalese also injured in Qatar's Ras Laffan explosion!</h2>
+        <p>Nepalese also injured</p>
+      </a>
+    </article>
+    <article class="video-card">
+      <a href="#">
+        <img src="thakalisewa.jpg" alt="Thakali Sewa Samaj Butwal Engaged in Preserving Tradition | #NewsUpdate #newsfeed #socialwork">
+        <h2>Thakali Sewa Samaj Butwal Engaged in Preserving Tradition | #NewsUpdate #newsfeed #socialwork</h2>
+        <p>Thakali Sewa Samaj Butwal</p>
+      </a>
+    </article>
+    <article class="video-card">
+      <a href="#">
+        <img src="oliprachanda.jpg" alt="Oli, Prachanda, and Nepal on same stage at Madan Bhandari birth anniversary program">
+        <h2>Oli, Prachanda, and Nepal on same stage at Madan Bhandari birth anniversary program</h2>
+        <p>Oli, Prachanda, and Nepal</p>
+      </a>
+    </article>
+    <article class="video-card">
+      <a href="#">
+        <img src="opiumcannabis.jpg" alt="Opium and cannabis cultivation destroyed on 56 ropani of land in Rolpa #CrimeNews">
+        <h2>Opium and cannabis cultivation destroyed on 56 ropani of land in Rolpa #CrimeNews</h2>
+        <p>Opium and cannabis cultivation</p>
+      </a>
+    </article>
+  </section>
+</main>
+</main>
+<footer class="site-footer"><div class="container">
+  <p>&copy; 2026 Shittal Pati. All rights reserved.</p>
+  <p><a href="/about.html">About</a> · <a href="/contact.html">Contact</a></p>
+</div></footer>
+</body>
+</html>
