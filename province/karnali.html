@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Karnali - Shittal Pati</title>
+<style>
+:root {
+  --bg: #ffffff;
+  --text: #1a1a1a;
+  --accent: #b3121b;
+  --muted: #6b6b6b;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--bg); color: var(--text);
+  font-family: 'Noto Sans', Arial, sans-serif;
+}
+h1, h2, h3, .headline { font-family: 'Merriweather', Georgia, serif; }
+a { color: inherit; text-decoration: none; }
+a:hover { text-decoration: underline; }
+.container { max-width: 1180px; margin: 0 auto; padding: 0 16px; }
+header.site-header {
+  border-bottom: 3px solid var(--accent);
+  padding: 16px 0;
+  
+}
+header.site-header .row {
+  display: flex; align-items: center; justify-content: space-between;
+  flex-direction: column; text-align:center; gap:10px;
+}
+.logo { font-size: 26px; font-weight: 800; color: var(--accent); }
+nav.main-nav a { margin: 0 10px; font-weight: 600; font-size: 14px; }
+.tagline { color: var(--muted); font-size: 13px; }
+.hero { padding: 24px 0; }
+.hero-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 24px; }
+.hero-main img, .card img { width: 100%; height: auto; display: block; border-radius: 12px; }
+.hero-main .headline { font-size: 30px; margin: 10px 0; }
+.card-grid {
+  display: grid; gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+}
+.card {  }
+.card img {  }
+.card .cat { color: var(--accent); font-size: 11px; font-weight: 700; text-transform: uppercase; }
+.card .headline { font-size: 17px; margin: 6px 0; }
+.card .meta { color: var(--muted); font-size: 12px; }
+section.block { padding: 28px 0; border-top: 1px solid rgba(120,120,120,.2); }
+section.block > h2 { font-size: 20px; border-left: 4px solid var(--accent); padding-left: 10px; margin-bottom: 18px; }
+footer.site-footer {
+  margin-top: 40px; padding: 30px 0; background: #14161a;
+  color: #cfd3d8; font-size: 13px;
+}
+footer.site-footer a { color: #cfd3d8; }
+.detail-article .headline { font-size: 30px; margin: 6px 0 14px; }
+.detail-article .body-html { font-size: 17px; line-height: 1.8; }
+.detail-article .body-html img { max-width: 100%; border-radius: 8px; }
+.ad-slot { text-align: center; margin: 20px 0; }
+.ad-slot img { max-width: 100%; border-radius: 8px; }
+</style>
+</head>
+<body>
+<header class="site-header"><div class="container row">
+  <a href="/index.html"><img src="logo.png" alt="Shittal Pati" style="height:44px"></a>
+  <nav class="main-nav">
+    <a href="/index.html">Home</a>
+    <a href="/category/politics.html">Politics</a>
+    <a href="/category/sports.html">Sports</a>
+    <a href="/category/entertainment.html">Entertainment</a>
+    <a href="/videos.html">Videos</a>
+    <a href="/about.html">About</a>
+    <a href="/contact.html">Contact</a>
+  </nav>
+</div><div class="container tagline">Official Website of Janavedana Daily</div></header>
+<main class="container">
+<main>
+  <section class="news-listing">
+    <h1 class="accent">Karnali News</h1>
+    <article class="news-article">
+      <h2><a href="#">Birendranagar: Karnali Province CM's Office Under Fire for Misusing Funds</a></h2>
+      <p>By Shristi Shrestha, Jul 25, 2024</p>
+      <p>Chief Minister of Karnali Province, Jeevan Bahadur Shahi, has been accused of misusing government funds for personal gain.</p>
+      <img src="karnali-cm.jpg" alt="Karnali CM Jeevan Bahadur Shahi">
+    </article>
+    <article class="news-article">
+      <h2><a href="#">Jumla: Farmers Protest Against Lack of Irrigation Facilities</a></h2>
+      <p>By Rohan KC, Jul 24, 2024</p>
+      <p>Farmers in Jumla district have been protesting against the lack of irrigation facilities, affecting their crops and livelihoods.</p>
+      <img src="jumla-farmers.jpg" alt="Jumla farmers protesting">
+    </article>
+    <article class="news-article">
+      <h2><a href="#">Surkhet: New Hospital to be Built with Government Funding</a></h2>
+      <p>By Sujan Shrestha, Jul 23, 2024</p>
+      <p>The government has announced plans to build a new hospital in Surkhet district, with funding from the provincial government.</p>
+      <img src="surkhet-hospital.jpg" alt="New hospital in Surkhet">
+    </article>
+  </section>
+  <section class="related-links">
+    <h2>Related Links</h2>
+    <ul>
+      <li><a href="#">Karnali Province News</a></li>
+      <li><a href="#">Western Development Region News</a></li>
+      <li><a href="#">Nepal News</a></li>
+    </ul>
+  </section>
+</main>
+</main>
+<footer class="site-footer"><div class="container">
+  <p>&copy; 2026 Shittal Pati. All rights reserved.</p>
+  <p><a href="/about.html">About</a> · <a href="/contact.html">Contact</a></p>
+</div></footer>
+</body>
+</html>
